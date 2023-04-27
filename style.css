@@ -1,0 +1,73 @@
+/* CSS DOCUMENT */
+*{
+    background-color: #f5f4f4;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+/* MAIN */
+main{
+    text-align: center;
+    margin: auto;
+}
+
+/* CONTENT */
+.content h1,.content h2,.content h3 {
+    font-size: 35px;
+}
+
+/* ICONS */
+.icons p{
+    margin-top: 2rem;
+}
+
+.icons img{
+    width: 60px;
+    max-width: 80px;
+}
+
+/* START */
+.start a {
+    display: block;
+    max-width: 400px;
+    margin: 15px auto;
+    padding: 5px 30px;
+    font-family: monospace;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    border: 5px solid orange;
+    background-color: #feac32;
+} 
+
+.start a:hover{
+    background-color: #ffb443;
+}
+
+.start figure{
+    margin: 15px;
+}
+
+.start img{
+    width: 100%;
+    max-width: 625px;
+}
+
+.start figcaption{
+    font-weight: bold;
+    font-size: 18px;
+    margin: 15px;
+}
+
+@media all and (min-width: 600px) {
+    /* ICONS */
+    .icons img{
+        width: 70px;
+        margin: 0 10px;
+    }
+
+    /* START */
+    .start a{
+        font-size: 25px;
+    }
+}
